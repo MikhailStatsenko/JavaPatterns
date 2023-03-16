@@ -1,0 +1,50 @@
+plugins {
+    id 'application'
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'PW9.app.src.main.java.PW9.App'
+}
+
+jar {
+    archiveName 'app.jar'
+    manifest {
+        attributes "Main-Class": "PW9.app.src.main.java.PW9.App"
+    }
+}
+
+task copyJar(type: Copy) {
+    dependsOn 'jar'
+    from jar
+    into file("$rootDir/app/src/main/resources/")
+}
+
+task buildImage(type: Exec) {
+    dependsOn 'copyJar'
+    finalizedBy 'removeJar'
+    commandLine 'docker', 'build', '-t', 'app.jar', './src/main/resources/'
+}
+
+task removeJar(type: Delete) {
+    delete file("$rootDir/app/src/main/resources/app.jar")
+}
+
+task dockerTask(type: Exec) {
+    dependsOn 'buildImage'
+    finalizedBy 'removeContainer'
+    commandLine 'docker', 'run', '--name', 'app', 'app.jar'
+}
+
+task removeContainer(type: Exec) {
+    finalizedBy 'removeImage'
+    commandLine 'docker', 'container', 'rm', 'app'
+}
+
+task removeImage(type: Exec) {
+    commandLine 'docker', 'image', 'rm', 'app.jar'
+}
