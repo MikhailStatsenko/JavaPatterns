@@ -5,6 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/JavaPatterns.iml" filepath="$PROJECT_DIR$/JavaPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PW10.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PW10.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PW10.test.iml" filepath="$PROJECT_DIR$/.idea/modules/PW10.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PW11.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PW11.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PW14.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PW14.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PW15.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PW15.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.PW15.PW15.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.PW15.PW15.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.pw11.PW11.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.pw11.PW11.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.pw14.PW14.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.pw14.PW14.main.iml" />
     </modules>
   </component>
 </project>

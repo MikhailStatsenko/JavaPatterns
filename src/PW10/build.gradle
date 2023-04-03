@@ -12,5 +12,5 @@ repositories {
 mainClassName = 'App'
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter:2.7.1'
+    implementation 'org.springframework.boot:spring-boot-starter:3.0.4'
 }
