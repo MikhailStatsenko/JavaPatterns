@@ -20,6 +20,14 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/PW12" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/PW12" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/src/PW12/pw12" />
         <option name="modules">
           <set>
@@ -48,6 +56,30 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/src/PW15" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/PW16" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/PW16" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/PW17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/PW17" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/PW18" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/PW18" />
           </set>
         </option>
       </GradleProjectSettings>
