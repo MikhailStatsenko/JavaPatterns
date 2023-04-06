@@ -1,0 +1,37 @@
+243  [main] INFO  com.pw19.pw19.Pw19Application – Starting Pw19Application using Java 18.0.2 on MacBook-Pro-Mihail-3.local with PID 31348 (/Users/mikhail/Downloads/JavaPatterns/src/PW19/build/classes/java/main started by mikhail in /Users/mikhail/Downloads/JavaPatterns/src/PW19)
+244  [main] INFO  com.pw19.pw19.Pw19Application – No active profile set, falling back to default profiles: default
+400  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+415  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+644  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+648  [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+649  [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+649  [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.56]
+675  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+675  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 412 ms
+729  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+798  [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65cf4d6d
+799  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+818  [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+835  [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.3.Final
+892  [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+930  [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1122 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1125 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1292 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1396 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+1402 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+1406 [main] INFO  com.pw19.pw19.Pw19Application – Started Pw19Application in 1.294 seconds (JVM running for 1.457)
+11135 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+11136 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+11137 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+11152 [http-nio-8080-exec-1] INFO  c.pw19.pw19.service.AddressService – Find all addresses
+23661 [http-nio-8080-exec-2] INFO  c.pw19.pw19.service.AddressService – Getting all addresses with addressText = abc
+32610 [http-nio-8080-exec-3] INFO  c.pw19.pw19.service.AddressService – Saving address: Address{id=0, addressText='he', zipCode='10'}
+32666 [http-nio-8080-exec-4] INFO  c.pw19.pw19.service.AddressService – Find all addresses
+44138 [http-nio-8080-exec-5] INFO  c.pw19.pw19.service.BuildingService – Find all buildings
+54743 [http-nio-8080-exec-6] INFO  c.pw19.pw19.service.BuildingService – Getting all buildings with type = Office
+86817 [http-nio-8080-exec-8] INFO  c.pw19.pw19.service.BuildingService – Getting all buildings with type = office
+104817 [http-nio-8080-exec-9] INFO  c.pw19.pw19.service.BuildingService – Getting all buildings sorted by creation date
+112753 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+112754 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+112756 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

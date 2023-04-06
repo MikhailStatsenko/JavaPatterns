@@ -1,0 +1,79 @@
+263  [main] INFO  com.pw20.pw20.Pw20Application – Starting Pw20Application using Java 18.0.2 on MacBook-Pro-Mihail-3.local with PID 31833 (/Users/mikhail/Downloads/JavaPatterns/src/PW20/build/classes/java/main started by mikhail in /Users/mikhail/Downloads/JavaPatterns/src/PW20)
+264  [main] INFO  com.pw20.pw20.Pw20Application – No active profile set, falling back to default profiles: default
+435  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+453  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+749  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+753  [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+754  [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+754  [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.56]
+781  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+781  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 498 ms
+842  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+929  [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61874b9d
+929  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+954  [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+976  [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.3.Final
+1041 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1092 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1299 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1302 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1496 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1605 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+1611 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+1615 [main] INFO  com.pw20.pw20.Pw20Application – Started Pw20Application in 1.497 seconds (JVM running for 1.665)
+5539 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5539 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5540 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+5560 [http-nio-8080-exec-1] INFO  c.pw20.pw20.service.BuildingService – Getting all buildings sorted by creation date
+5590 [http-nio-8080-exec-1] INFO  com.pw20.pw20.aspect.LoggingAspect – List com.pw20.pw20.service.BuildingService.sortBuildingsOrderedByCreationDate() executed in 35 ms
+26340 [http-nio-8080-exec-2] INFO  c.pw20.pw20.service.BuildingService – Find all buildings
+26369 [http-nio-8080-exec-2] INFO  com.pw20.pw20.aspect.LoggingAspect – List com.pw20.pw20.service.BuildingService.getAllBuildings() executed in 29 ms
+34308 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver – Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'addressId' for method parameter type long is not present]
+45902 [http-nio-8080-exec-4] INFO  c.pw20.pw20.service.BuildingService – Saving building: Building{id=0, creationDate='11.11.2011', type='dfg'}
+45939 [http-nio-8080-exec-4] INFO  com.pw20.pw20.aspect.LoggingAspect – void com.pw20.pw20.service.BuildingService.addEntity(Building,long) executed in 38 ms
+45948 [http-nio-8080-exec-5] INFO  c.pw20.pw20.service.BuildingService – Find all buildings
+45952 [http-nio-8080-exec-5] INFO  com.pw20.pw20.aspect.LoggingAspect – List com.pw20.pw20.service.BuildingService.getAllBuildings() executed in 4 ms
+58864 [http-nio-8080-exec-6] INFO  c.pw20.pw20.service.AddressService – Find all addresses
+58871 [http-nio-8080-exec-6] INFO  com.pw20.pw20.aspect.LoggingAspect – List com.pw20.pw20.service.AddressService.getAllAddresses() executed in 12 ms
+66505 [http-nio-8080-exec-7] INFO  c.pw20.pw20.service.AddressService – Saving address: Address{id=0, addressText='he', zipCode='10'}
+66520 [http-nio-8080-exec-7] INFO  com.pw20.pw20.aspect.LoggingAspect – void com.pw20.pw20.service.AddressService.addEntity(Address) executed in 15 ms
+66528 [http-nio-8080-exec-8] INFO  c.pw20.pw20.service.AddressService – Find all addresses
+66534 [http-nio-8080-exec-8] INFO  com.pw20.pw20.aspect.LoggingAspect – List com.pw20.pw20.service.AddressService.getAllAddresses() executed in 6 ms
+72432 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+72433 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+72435 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+428  [main] INFO  com.pw20.pw20.Pw20Application – Starting Pw20Application using Java 18.0.2 on MacBook-Pro-Mihail-3.local with PID 33056 (/Users/mikhail/Downloads/JavaPatterns/src/PW20/build/classes/java/main started by mikhail in /Users/mikhail/Downloads/JavaPatterns/src/PW20)
+429  [main] INFO  com.pw20.pw20.Pw20Application – No active profile set, falling back to default profiles: default
+600  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+619  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+905  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+910  [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+910  [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+910  [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.56]
+937  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+937  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 487 ms
+997  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1082 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61874b9d
+1082 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1107 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1132 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.3.Final
+1199 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1247 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1466 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1469 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1657 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1766 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+1772 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+1776 [main] INFO  com.pw20.pw20.Pw20Application – Started Pw20Application in 1.652 seconds (JVM running for 1.837)
+7457 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+7457 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+7458 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+7477 [http-nio-8080-exec-1] INFO  c.pw20.pw20.service.AddressService – Find all addresses
+7501 [http-nio-8080-exec-1] INFO  com.pw20.pw20.aspect.LoggingAspect – List com.pw20.pw20.service.AddressService.getAllAddresses() executed in 28 ms
+10363 [http-nio-8080-exec-2] INFO  c.pw20.pw20.service.AddressService – Saving address: Address{id=0, addressText='he', zipCode='10'}
+10393 [http-nio-8080-exec-2] INFO  com.pw20.pw20.aspect.LoggingAspect – void com.pw20.pw20.service.AddressService.addEntity(Address) executed in 31 ms
+10404 [http-nio-8080-exec-3] INFO  c.pw20.pw20.service.AddressService – Find all addresses
+10407 [http-nio-8080-exec-3] INFO  com.pw20.pw20.aspect.LoggingAspect – List com.pw20.pw20.service.AddressService.getAllAddresses() executed in 3 ms
+33113 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+33114 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+33117 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
