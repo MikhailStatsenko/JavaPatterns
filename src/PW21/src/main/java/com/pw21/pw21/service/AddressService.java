@@ -15,11 +15,9 @@ import java.util.List;
 @Transactional
 public class AddressService {
     private final AddressRepository addressRepository;
-    private final EmailService emailService;
     @Autowired
-    public AddressService(AddressRepository addressRepository, EmailService emailService) {
+    public AddressService(AddressRepository addressRepository) {
         this.addressRepository = addressRepository;
-        this.emailService = emailService;
     }
 
     public List<Address> getAllAddresses() {

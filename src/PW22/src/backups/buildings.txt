@@ -1,0 +1,5 @@
+Building{id=6, creationDate='11.11.2001', type='office'}
+Building{id=7, creationDate='11.11.1997', type='office'}
+Building{id=8, creationDate='11.11.2211', type='business'}
+Building{id=10, creationDate='11.11.2011', type='dfg'}
+Building{id=11, creationDate='11.11.2011', type='dfg'}

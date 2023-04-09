@@ -107,6 +107,22 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/PW22" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/PW22" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/PW23" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/PW23" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

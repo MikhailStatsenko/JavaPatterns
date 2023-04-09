@@ -1,0 +1,85 @@
+391  [main] INFO  com.pw22.pw23.Pw22Application – Starting Pw22Application using Java 18.0.2 on MacBook-Pro-Mihail-3.local with PID 46267 (/Users/mikhail/Downloads/JavaPatterns/src/PW22/build/classes/java/main started by mikhail in /Users/mikhail/Downloads/JavaPatterns/src/PW22)
+394  [main] INFO  com.pw22.pw23.Pw22Application – No active profile set, falling back to default profiles: default
+567  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+572  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+869  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+873  [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+873  [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+874  [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.56]
+901  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+901  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 486 ms
+974  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1046 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@707ca986
+1046 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1064 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1082 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.3.Final
+1141 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1189 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1390 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1393 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1417 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressController' defined in file [/Users/mikhail/Downloads/JavaPatterns/src/PW22/build/classes/java/main/com/pw22/pw23/controller/AddressController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressService' defined in file [/Users/mikhail/Downloads/JavaPatterns/src/PW22/build/classes/java/main/com/pw22/pw23/service/AddressService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.pw22.pw23.repository.AddressRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+1417 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+1418 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+1419 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+1420 [main] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+1425 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+1432 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter – 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.pw22.pw23.service.AddressService required a bean of type 'com.pw22.pw23.repository.AddressRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.pw22.pw23.repository.AddressRepository' in your configuration.
+
+242  [main] INFO  com.pw22.pw22.Pw22Application – Starting Pw22Application using Java 18.0.2 on MacBook-Pro-Mihail-3.local with PID 46318 (/Users/mikhail/Downloads/JavaPatterns/src/PW22/build/classes/java/main started by mikhail in /Users/mikhail/Downloads/JavaPatterns/src/PW22)
+243  [main] INFO  com.pw22.pw22.Pw22Application – No active profile set, falling back to default profiles: default
+409  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+427  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+716  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+720  [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+721  [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+721  [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.56]
+746  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+746  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 484 ms
+813  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+881  [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7741771e
+886  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+907  [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+922  [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.3.Final
+975  [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1018 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1206 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1208 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1443 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1580 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+1586 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+1591 [main] INFO  com.pw22.pw22.Pw22Application – Started Pw22Application in 1.48 seconds (JVM running for 1.639)
+9149 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+9150 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+9150 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 0 ms
+12376 [http-nio-8080-exec-3] INFO  c.pw22.pw22.service.AddressService – Find all addresses
+12407 [http-nio-8080-exec-3] INFO  com.pw22.pw22.aspect.LoggingAspect – List com.pw22.pw22.service.AddressService.getAllAddresses() executed in 39 ms
+20255 [scheduling-1] INFO  c.p.pw22.service.SchedulerService – Scheduled task started: deleting files
+20256 [scheduling-1] INFO  c.p.pw22.service.SchedulerService – File buildings.txt deleted
+20257 [scheduling-1] INFO  c.p.pw22.service.SchedulerService – File addresses.txt deleted
+20257 [scheduling-1] INFO  c.p.pw22.service.SchedulerService – All files deleted
+Writing updated data from addresses and buildings tables
+20258 [scheduling-1] INFO  c.pw22.pw22.service.AddressService – Find all addresses
+20261 [scheduling-1] INFO  com.pw22.pw22.aspect.LoggingAspect – List com.pw22.pw22.service.AddressService.getAllAddresses() executed in 3 ms
+20270 [scheduling-1] INFO  c.pw22.pw22.service.BuildingService – Find all buildings
+20283 [scheduling-1] INFO  com.pw22.pw22.aspect.LoggingAspect – List com.pw22.pw22.service.BuildingService.getAllBuildings() executed in 17 ms
+20287 [scheduling-1] INFO  c.p.pw22.service.SchedulerService – Finished writing
+Scheduled task ended
+20287 [scheduling-1] INFO  com.pw22.pw22.aspect.LoggingAspect – void com.pw22.pw22.service.SchedulerService.makeBackup() executed in 35 ms
+29628 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+29629 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+29631 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

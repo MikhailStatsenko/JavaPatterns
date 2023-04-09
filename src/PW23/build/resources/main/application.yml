@@ -1,0 +1,5 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/pw_23
+#    username: postgres
+#    password: qwerty

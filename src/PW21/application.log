@@ -2368,3 +2368,192 @@ org.springframework.mail.MailSendException: Failed messages: com.sun.mail.smtp.S
 20624 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
 20626 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
 20627 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+271  [main] INFO  com.pw21.pw21.Pw21Application – Starting Pw21Application using Java 18.0.2 on MacBook-Pro-Mihail-3.local with PID 37323 (/Users/mikhail/Downloads/JavaPatterns/src/PW21/build/classes/java/main started by mikhail in /Users/mikhail/Downloads/JavaPatterns/src/PW21)
+272  [main] INFO  com.pw21.pw21.Pw21Application – No active profile set, falling back to default profiles: default
+447  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+463  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+775  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+780  [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+780  [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+780  [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.56]
+807  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+807  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 516 ms
+876  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+962  [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@526e8108
+966  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+987  [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1008 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.3.Final
+1072 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1120 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1327 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1330 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1556 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1692 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+1698 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+1702 [main] INFO  com.pw21.pw21.Pw21Application – Started Pw21Application in 1.573 seconds (JVM running for 1.752)
+5523 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5523 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5524 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+5547 [http-nio-8080-exec-1] INFO  c.pw21.pw21.service.AddressService – Find all addresses
+5568 [http-nio-8080-exec-1] INFO  com.pw21.pw21.aspect.LoggingAspect – List com.pw21.pw21.service.AddressService.getAllAddresses() executed in 26 ms
+7965 [http-nio-8080-exec-2] INFO  c.pw21.pw21.service.AddressService – Saving address: Address{id=0, addressText='he', zipCode='10'}
+7984 [http-nio-8080-exec-2] INFO  com.pw21.pw21.aspect.LoggingAspect – void com.pw21.pw21.service.AddressService.addEntity(Address) executed in 19 ms
+8005 [http-nio-8080-exec-3] INFO  c.pw21.pw21.service.AddressService – Find all addresses
+8008 [http-nio-8080-exec-3] INFO  com.pw21.pw21.aspect.LoggingAspect – List com.pw21.pw21.service.AddressService.getAllAddresses() executed in 3 ms
+8635 [task-2] INFO  com.pw21.pw21.aspect.LoggingAspect – void com.pw21.pw21.service.EmailService.sendEmail(String,String) executed in 638 ms
+64422 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+64424 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+64426 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+259  [main] INFO  com.pw21.pw21.Pw21Application – Starting Pw21Application using Java 18.0.2 on MacBook-Pro-Mihail-3.local with PID 39247 (/Users/mikhail/Downloads/JavaPatterns/src/PW21/build/classes/java/main started by mikhail in /Users/mikhail/Downloads/JavaPatterns/src/PW21)
+261  [main] INFO  com.pw21.pw21.Pw21Application – No active profile set, falling back to default profiles: default
+438  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+454  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+750  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+754  [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+754  [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+754  [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.56]
+781  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+781  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 499 ms
+847  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+937  [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e957e2f
+938  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+960  [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+978  [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.3.Final
+1036 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1082 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1280 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1283 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1509 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1641 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+1643 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+1643 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+1644 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+1645 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+1646 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Pausing ProtocolHandler ["http-nio-8080"]
+1646 [main] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+1647 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Stopping ProtocolHandler ["http-nio-8080"]
+1648 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Destroying ProtocolHandler ["http-nio-8080"]
+1651 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+1658 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter – 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+257  [main] INFO  com.pw21.pw21.Pw21Application – Starting Pw21Application using Java 18.0.2 on MacBook-Pro-Mihail-3.local with PID 39411 (/Users/mikhail/Downloads/JavaPatterns/src/PW21/build/classes/java/main started by mikhail in /Users/mikhail/Downloads/JavaPatterns/src/PW21)
+258  [main] INFO  com.pw21.pw21.Pw21Application – No active profile set, falling back to default profiles: default
+422  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+438  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+722  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+726  [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+726  [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+726  [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.56]
+756  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+756  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 477 ms
+821  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+885  [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@627ff1b8
+886  [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+908  [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+926  [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.3.Final
+979  [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1021 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1210 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1213 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1435 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1564 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+1570 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+1574 [main] INFO  com.pw21.pw21.Pw21Application – Started Pw21Application in 1.461 seconds (JVM running for 1.622)
+11674 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+11674 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+11675 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+11702 [http-nio-8080-exec-1] INFO  c.pw21.pw21.service.AddressService – Saving address: Address{id=0, addressText='he', zipCode='10'}
+11719 [http-nio-8080-exec-1] INFO  com.pw21.pw21.aspect.LoggingAspect – void com.pw21.pw21.service.AddressService.addEntity(Address) executed in 21 ms
+11732 [http-nio-8080-exec-2] INFO  c.pw21.pw21.service.AddressService – Find all addresses
+11744 [http-nio-8080-exec-2] INFO  com.pw21.pw21.aspect.LoggingAspect – List com.pw21.pw21.service.AddressService.getAllAddresses() executed in 12 ms
+13630 [task-2] INFO  com.pw21.pw21.aspect.LoggingAspect – void com.pw21.pw21.service.EmailService.sendEmail(String,String) executed in 1908 ms
+33215 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+33217 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+33219 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+491  [main] INFO  com.pw21.pw21.Pw21Application – Starting Pw21Application using Java 18.0.2 on MacBook-Pro-Mihail-3.local with PID 39998 (/Users/mikhail/Downloads/JavaPatterns/src/PW21/build/classes/java/main started by mikhail in /Users/mikhail/Downloads/JavaPatterns/src/PW21)
+492  [main] INFO  com.pw21.pw21.Pw21Application – No active profile set, falling back to default profiles: default
+671  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+689  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+1000 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1004 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1004 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1005 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.56]
+1033 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1034 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 521 ms
+1107 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1184 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a9860
+1187 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1207 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1227 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.3.Final
+1292 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1339 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1546 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1549 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1770 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1909 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+1915 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+1919 [main] INFO  com.pw21.pw21.Pw21Application – Started Pw21Application in 1.802 seconds (JVM running for 1.967)
+5676 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5676 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5677 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+5696 [http-nio-8080-exec-1] INFO  c.pw21.pw21.service.AddressService – Find all addresses
+5719 [http-nio-8080-exec-1] INFO  com.pw21.pw21.aspect.LoggingAspect – List com.pw21.pw21.service.AddressService.getAllAddresses() executed in 28 ms
+10993 [http-nio-8080-exec-2] INFO  c.pw21.pw21.service.AddressService – Saving address: Address{id=0, addressText='he', zipCode='10'}
+11010 [http-nio-8080-exec-2] INFO  com.pw21.pw21.aspect.LoggingAspect – void com.pw21.pw21.service.AddressService.addEntity(Address) executed in 17 ms
+11031 [http-nio-8080-exec-3] INFO  c.pw21.pw21.service.AddressService – Find all addresses
+11033 [http-nio-8080-exec-3] INFO  com.pw21.pw21.aspect.LoggingAspect – List com.pw21.pw21.service.AddressService.getAllAddresses() executed in 2 ms
+11606 [task-2] INFO  com.pw21.pw21.aspect.LoggingAspect – void com.pw21.pw21.service.EmailService.sendEmail(String,String) executed in 591 ms
+24472 [http-nio-8080-exec-4] INFO  c.pw21.pw21.service.AddressService – Saving address: Address{id=0, addressText='buba', zipCode='12345'}
+24474 [http-nio-8080-exec-4] INFO  com.pw21.pw21.aspect.LoggingAspect – void com.pw21.pw21.service.AddressService.addEntity(Address) executed in 2 ms
+24807 [task-4] INFO  com.pw21.pw21.aspect.LoggingAspect – void com.pw21.pw21.service.EmailService.sendEmail(String,String) executed in 332 ms
+119977 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+119979 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+119981 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+395  [main] INFO  com.pw21.pw21.Pw21Application – Starting Pw21Application using Java 18.0.2 on MacBook-Pro-Mihail-3.local with PID 40052 (/Users/mikhail/Downloads/JavaPatterns/src/PW21/build/classes/java/main started by mikhail in /Users/mikhail/Downloads/JavaPatterns/src/PW21)
+396  [main] INFO  com.pw21.pw21.Pw21Application – No active profile set, falling back to default profiles: default
+572  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+589  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+905  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+909  [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+909  [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+909  [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.56]
+942  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+942  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 526 ms
+1021 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1138 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6003ad65
+1139 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1159 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1180 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.3.Final
+1246 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1294 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1504 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1507 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+1732 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+1873 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+1880 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+1884 [main] INFO  com.pw21.pw21.Pw21Application – Started Pw21Application in 1.758 seconds (JVM running for 1.933)
+15546 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+15548 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+15549 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+15578 [http-nio-8080-exec-1] INFO  c.pw21.pw21.service.AddressService – Saving address: Address{id=0, addressText='buba', zipCode='1122'}
+15596 [http-nio-8080-exec-1] INFO  com.pw21.pw21.aspect.LoggingAspect – void com.pw21.pw21.service.AddressService.addEntity(Address) executed in 22 ms
+15609 [http-nio-8080-exec-2] INFO  c.pw21.pw21.service.AddressService – Find all addresses
+15621 [http-nio-8080-exec-2] INFO  com.pw21.pw21.aspect.LoggingAspect – List com.pw21.pw21.service.AddressService.getAllAddresses() executed in 12 ms
+16240 [task-2] INFO  com.pw21.pw21.aspect.LoggingAspect – void com.pw21.pw21.service.EmailService.sendEmail(String,String) executed in 641 ms
+177626 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+177628 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+177630 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

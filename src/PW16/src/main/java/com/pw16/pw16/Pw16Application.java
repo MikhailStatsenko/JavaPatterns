@@ -53,16 +53,16 @@ public class Pw16Application {
 		System.out.println("\nPrint address info");
 		System.out.println("\n" + address + "\n");
 
-		System.out.println("\nShow buildings");
-		System.out.println("\n" + address.getBuildings() + "\n");
+//		System.out.println("\nShow buildings");
+//		System.out.println("\n" + address.getBuildings() + "\n");
 
 		System.out.println("\nCommit\n");
 
 		session.getTransaction().commit();
 		session.close();
 
-//		System.out.println("\nShow buildings");
-//		System.out.println("\n" + address.getBuildings() + "\n");
+		System.out.println("\nShow buildings");
+		System.out.println("\n" + address.getBuildings() + "\n");
 
 
 		sessionFactory.close();
