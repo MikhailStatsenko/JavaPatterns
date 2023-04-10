@@ -1,0 +1,123 @@
+59   [Test worker] INFO  c.pw24.pw24.service.AddressService – Find all addresses
+87   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses with addressText = 123 Main St
+89   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses sorted by zip code
+93   [Test worker] INFO  c.pw24.pw24.service.AddressService – Removing all addresses with addressText = 123 Main St and zipCode = 12345
+96   [Test worker] INFO  c.pw24.pw24.service.AddressService – Saving address: Address{id=0, addressText='null', zipCode='0'}
+62   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses sorted by zip code
+57   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses sorted by zip code
+59   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses sorted by zip code
+56   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses sorted by zip code
+221  [Test worker] INFO  c.pw24.pw24.service.AddressService – Saving address: Address{id=0, addressText='null', zipCode='0'}
+55   [Test worker] INFO  c.pw24.pw24.service.AddressService – Find all addresses
+79   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses with addressText = my address
+82   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses sorted by zip code
+86   [Test worker] INFO  c.pw24.pw24.service.AddressService – Removing all addresses with addressText = my address and zipCode = 12345
+89   [Test worker] INFO  c.pw24.pw24.service.AddressService – Saving address: Address{id=0, addressText='null', zipCode='0'}
+54   [Test worker] INFO  c.pw24.pw24.service.AddressService – Find all addresses
+80   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses with addressText = my address
+82   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses sorted by zip code
+86   [Test worker] INFO  c.pw24.pw24.service.AddressService – Removing all addresses with addressText = my address and zipCode = 12345
+89   [Test worker] INFO  c.pw24.pw24.service.AddressService – Saving address: Address{id=0, addressText='null', zipCode='0'}
+56   [Test worker] INFO  c.pw24.pw24.service.AddressService – Find all addresses
+81   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses with addressText = my address
+84   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses sorted by zip code
+88   [Test worker] INFO  c.pw24.pw24.service.AddressService – Removing all addresses with addressText = my address and zipCode = 12345
+91   [Test worker] INFO  c.pw24.pw24.service.AddressService – Saving address: Address{id=0, addressText='null', zipCode='0'}
+57   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings with type = residential
+86   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Removing all buildings with creationDate = 2022-01-01 and type = residential
+90   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+98   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+103  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Find all buildings
+106  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings with type = residential
+132  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Removing all buildings with creationDate = 2022-01-01 and type = residential
+136  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+144  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+148  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Find all buildings
+57   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings with type = residential
+84   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Removing all buildings with creationDate = 2022-01-01 and type = residential
+88   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+95   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+99   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Find all buildings
+57   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings with type = residential
+83   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Removing all buildings with creationDate = 2022-01-01 and type = residential
+87   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+95   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+99   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Find all buildings
+58   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings with type = residential
+85   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Removing all buildings with creationDate = 2022-01-01 and type = residential
+88   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+95   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+100  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Find all buildings
+58   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings with type = residential
+84   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Removing all buildings with creationDate = 2022-01-01 and type = residential
+88   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Find all buildings
+61   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Removing all buildings with creationDate = 01.01.2020 and type = office
+56   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+57   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+58   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+61   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+58   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+59   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+64   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings with type = office
+92   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Removing all buildings with creationDate = 01.01.2020 and type = office
+96   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+100  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+104  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Find all buildings
+58   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings with type = office
+84   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Removing all buildings with creationDate = 01.01.2020 and type = office
+88   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+91   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+94   [Test worker] INFO  c.pw24.pw24.service.BuildingService – Find all buildings
+134  [Test worker] INFO  c.p.pw24.service.SchedulerService – Scheduled task started: deleting files
+136  [Test worker] INFO  c.p.pw24.service.SchedulerService – File buildings.txt deleted
+136  [Test worker] INFO  c.p.pw24.service.SchedulerService – File addresses.txt deleted
+136  [Test worker] INFO  c.p.pw24.service.SchedulerService – All files deleted
+Writing updated data from addresses and buildings tables
+142  [Test worker] INFO  c.p.pw24.service.SchedulerService – Finished writing
+Scheduled task ended
+77   [Test worker] INFO  c.p.pw24.service.SchedulerService – Scheduled task started: deleting files
+79   [Test worker] INFO  c.p.pw24.service.SchedulerService – All files deleted
+Writing updated data from addresses and buildings tables
+83   [Test worker] INFO  c.p.pw24.service.SchedulerService – Finished writing
+Scheduled task ended
+85   [Test worker] INFO  c.p.pw24.service.SchedulerService – Scheduled task started: deleting files
+87   [Test worker] INFO  c.p.pw24.service.SchedulerService – All files deleted
+Writing updated data from addresses and buildings tables
+91   [Test worker] INFO  c.p.pw24.service.SchedulerService – Finished writing
+Scheduled task ended
+85   [Test worker] INFO  c.p.pw24.service.SchedulerService – Scheduled task started: deleting files
+82   [Test worker] INFO  c.p.pw24.service.SchedulerService – Scheduled task started: deleting files
+84   [Test worker] INFO  c.p.pw24.service.SchedulerService – All files deleted
+Writing updated data from addresses and buildings tables
+88   [Test worker] INFO  c.p.pw24.service.SchedulerService – Finished writing
+Scheduled task ended
+56   [Test worker] INFO  c.pw24.pw24.service.AddressService – Find all addresses
+85   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses with addressText = my address
+87   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses sorted by zip code
+91   [Test worker] INFO  c.pw24.pw24.service.AddressService – Removing all addresses with addressText = my address and zipCode = 12345
+94   [Test worker] INFO  c.pw24.pw24.service.AddressService – Saving address: Address{id=0, addressText='null', zipCode='0'}
+121  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings with type = office
+123  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Removing all buildings with creationDate = 01.01.2020 and type = office
+124  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+126  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+129  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Find all buildings
+194  [Test worker] INFO  c.p.pw24.service.SchedulerService – Scheduled task started: deleting files
+195  [Test worker] INFO  c.p.pw24.service.SchedulerService – All files deleted
+Writing updated data from addresses and buildings tables
+195  [Test worker] INFO  c.p.pw24.service.SchedulerService – Finished writing
+Scheduled task ended
+56   [Test worker] INFO  c.pw24.pw24.service.AddressService – Find all addresses
+81   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses with addressText = my address
+83   [Test worker] INFO  c.pw24.pw24.service.AddressService – Getting all addresses sorted by zip code
+87   [Test worker] INFO  c.pw24.pw24.service.AddressService – Removing all addresses with addressText = my address and zipCode = 12345
+90   [Test worker] INFO  c.pw24.pw24.service.AddressService – Saving address: Address{id=0, addressText='null', zipCode='0'}
+116  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings with type = office
+117  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Removing all buildings with creationDate = 01.01.2020 and type = office
+119  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+121  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+124  [Test worker] INFO  c.pw24.pw24.service.BuildingService – Find all buildings
+183  [Test worker] INFO  c.p.pw24.service.SchedulerService – Scheduled task started: deleting files
+183  [Test worker] INFO  c.p.pw24.service.SchedulerService – All files deleted
+Writing updated data from addresses and buildings tables
+184  [Test worker] INFO  c.p.pw24.service.SchedulerService – Finished writing
+Scheduled task ended

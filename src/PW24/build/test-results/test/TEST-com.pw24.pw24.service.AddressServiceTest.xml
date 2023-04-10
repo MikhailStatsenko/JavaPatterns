@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pw24.pw24.service.AddressServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-04-10T11:45:07" hostname="MacBook-Pro-Mihail-3.local" time="0.307">
+  <properties/>
+  <testcase name="testGetAllAddresses()" classname="com.pw24.pw24.service.AddressServiceTest" time="0.293"/>
+  <testcase name="testFilterAddressesByAddressText()" classname="com.pw24.pw24.service.AddressServiceTest" time="0.002"/>
+  <testcase name="testSortAddressesOrderedByZipCode()" classname="com.pw24.pw24.service.AddressServiceTest" time="0.004"/>
+  <testcase name="testDeleteEntity()" classname="com.pw24.pw24.service.AddressServiceTest" time="0.004"/>
+  <testcase name="testAddEntity()" classname="com.pw24.pw24.service.AddressServiceTest" time="0.003"/>
+  <system-out><![CDATA[14:45:07.396 [Test worker] INFO  com.pw24.pw24.service.AddressService – Find all addresses
+14:45:07.421 [Test worker] INFO  com.pw24.pw24.service.AddressService – Getting all addresses with addressText = my address
+14:45:07.423 [Test worker] INFO  com.pw24.pw24.service.AddressService – Getting all addresses sorted by zip code
+14:45:07.427 [Test worker] INFO  com.pw24.pw24.service.AddressService – Removing all addresses with addressText = my address and zipCode = 12345
+14:45:07.430 [Test worker] INFO  com.pw24.pw24.service.AddressService – Saving address: Address{id=0, addressText='null', zipCode='0'}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

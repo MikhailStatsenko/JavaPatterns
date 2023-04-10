@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pw24.pw24.service.SchedulerServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-10T11:45:07" hostname="MacBook-Pro-Mihail-3.local" time="0.025">
+  <properties/>
+  <testcase name="testMakeBackup()" classname="com.pw24.pw24.service.SchedulerServiceTest" time="0.025"/>
+  <system-out><![CDATA[14:45:07.523 [Test worker] INFO  c.pw24.pw24.service.SchedulerService – Scheduled task started: deleting files
+14:45:07.523 [Test worker] INFO  c.pw24.pw24.service.SchedulerService – All files deleted
+Writing updated data from addresses and buildings tables
+14:45:07.524 [Test worker] INFO  c.pw24.pw24.service.SchedulerService – Finished writing
+Scheduled task ended
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

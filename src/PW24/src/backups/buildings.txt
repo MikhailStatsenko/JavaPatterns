@@ -1,0 +1,1 @@
+Building{id=0, creationDate='null', type='null'}

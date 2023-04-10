@@ -1,0 +1,16 @@
+]14:45:07.396 [Test worker] INFO  com.pw24.pw24.service.AddressService – Find all addresses
+~14:45:07.421 [Test worker] INFO  com.pw24.pw24.service.AddressService – Getting all addresses with addressText = my address
+s14:45:07.423 [Test worker] INFO  com.pw24.pw24.service.AddressService – Getting all addresses sorted by zip code
+�14:45:07.427 [Test worker] INFO  com.pw24.pw24.service.AddressService – Removing all addresses with addressText = my address and zipCode = 12345
+�14:45:07.430 [Test worker] INFO  com.pw24.pw24.service.AddressService – Saving address: Address{id=0, addressText='null', zipCode='0'}
+r14:45:07.456 [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings with type = office
+	�14:45:07.457 [Test worker] INFO  c.pw24.pw24.service.BuildingService – Removing all buildings with creationDate = 01.01.2020 and type = office
+
+w14:45:07.459 [Test worker] INFO  c.pw24.pw24.service.BuildingService – Getting all buildings sorted by creation date
+�14:45:07.461 [Test worker] INFO  c.pw24.pw24.service.BuildingService – Saving building: Building{id=0, creationDate='null', type='null'}
+\14:45:07.464 [Test worker] INFO  c.pw24.pw24.service.BuildingService – Find all buildings
+q14:45:07.523 [Test worker] INFO  c.pw24.pw24.service.SchedulerService – Scheduled task started: deleting files
+\14:45:07.523 [Test worker] INFO  c.pw24.pw24.service.SchedulerService – All files deleted
+9Writing updated data from addresses and buildings tables
+[14:45:07.524 [Test worker] INFO  c.pw24.pw24.service.SchedulerService – Finished writing
+Scheduled task ended
